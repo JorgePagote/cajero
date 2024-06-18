@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/fondocajero.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    color: #24303c;
+}
+
+.form-registro {
+    width: 500px;
+    background: #24303c;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+}
+
+.form-registro h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.lab {
+    font-size: 20px;
+    text-align: center;
+}
+
+.cont {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-registro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-registro a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form-registro a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-registro .btn{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+} 
+
+.form-registro .btn:hover {
+    cursor: pointer;
+    color: #24303c;
+    background: white;
+}
+
+
+/* html pricipal */
+
+.form-saldo {
+    width: 600px;
+    background: #24303c;
+    padding: 20px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-saldo .btn1 {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.form-saldo h2 {
+    margin-top: 15px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #24303c;
+}
+
+@media (max-width: 432px){
+    .form-registro {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .form-registro h2 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .cont {
+        padding: 8px;
+        border-radius: 4px;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    
+    .form-registro p {
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .form-registro .btn{
+        padding: 12px;
+        margin: 16px 0;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
